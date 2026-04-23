@@ -1,0 +1,118 @@
+\documentclass[a4paper,10pt]{article}
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome}
+\usepackage{xcolor}
+\usepackage{setspace}
+\usepackage{multicol}
+
+% Page layout
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-0.6in}
+\addtolength{\textheight}{1.2in}
+
+\urlstyle{same}
+\setlength{\tabcolsep}{0in}
+\renewcommand{\labelitemi}{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+% Custom commands
+\newcommand{\resheading}[1]{\vspace{-5pt}\section*{\uppercase{#1}}\vspace{-6pt}}
+\newcommand{\resitem}[1]{\item #1 \vspace{-4pt}}
+\newcommand{\ressubheading}[4]{
+  \textbf{#1} \hfill #2 \\
+  \textit{#3} \hfill \textit{#4}
+}
+
+\begin{document}
+
+%-----------Heading-----------
+\vspace{10pt}
+\begin{center}
+    {\LARGE \textbf{Swapnilshikha Bhakat}} \\
+    \vspace{1pt}
+    Ghatshila, Jharkhand • \href{mailto:bhakatswapnilshikha@gmail.com}{bhakatswapnilshikha@gmail.com} • +91-6200428337 \\
+    \href{https://github.com/swapnilshikha}{github.com/swapnilshikha} • 
+    \href{https://linkedin.com/in/swapnilshikha-bhakat-264221270}{linkedin.com/in/swapnilshikha} • 
+    \href{https://swapnilshikha.xyz/}{swapnilshikha.xyz}
+\end{center}
+
+%-----------Profile-----------
+\resheading{Profile}
+\noindent
+Final-year B.Tech Computer Science student specializing in Web Development and SAP application development using Core ABAP, CDS Views, and the RESTful ABAP Programming Model (RAP). Experienced in building enterprise applications with SAP SAPUI5. Alongside academics, actively contribute to college initiatives, strengthening leadership, collaboration, and time management skills.
+
+
+%-----------Skills-----------
+\resheading{Technical Skills}
+\begin{itemize}[leftmargin=0.2in, itemsep=2pt, topsep=1pt]
+  \item \textbf{SAP Technologies:} ABAP (Core) - Basics, CDS Views, RAP, SAPUI5, OData Services.
+  \item \textbf{Languages:} C, C++, Java, Python, JavaScript, SQL.
+  \item \textbf{Web:} HTML, CSS, React.js, Express.js, MongoDB, Node.js
+  \item \textbf{Tools:} AWS, GitHub, VS Code, Postman, Jupyter Notebook, Eclipse (ADT), SAP BTP BAS
+  \item \textbf{CS Fundamentals:} DBMS, Operating Systems, Data Structures
+\end{itemize}
+
+%-----------Education-----------
+\resheading{Education}
+\begin{itemize}[leftmargin=0.15in, itemsep=4pt, topsep=1pt]
+  \item \ressubheading{Silicon University}{Bhubaneswar, India}{B.Tech in Computer Science; CGPA: 9.02}{2022 – 2026 (Expected)}
+  \item \ressubheading{St. Joseph’s Convent High School, Mosaboni}{Jharkhand}{Intermediate; 90.67\%}{2020 – 2021}
+  \item \ressubheading{St. Joseph’s Convent High School, Mosaboni}{Jharkhand}{Matriculation; 94\%}{2018 – 2019}
+\end{itemize}
+
+%-----------Projects-----------
+\resheading{Projects}
+\begin{itemize}[leftmargin=0.15in, itemsep=8pt, topsep=1pt]
+
+  \item \textbf{Sales-Order Profitability System (SAP RAP + SAP Fiori)}
+  \begin{itemize}[itemsep=2pt, topsep=1pt]
+    \resitem{Developed an SAP analytics application to analyze sales order revenue and profitability.}
+    \resitem{Implemented RAP architecture including Interface CDS Views, Consumption Views, Behavior Definitions, and Service Binding.}
+    \resitem{Built a custom SAPUI5 application using SAP Business Application Studio (BAS) and integrated RAP OData service with SAPUI5 frontend for real-time analytics and UI data binding..}
+    \resitem{Implemented UI controls such as UI Tables, Generic Tiles, and VizFrame charts for data visualization.}
+    \resitem{Implemented routing and navigation for drill-down analytics from dashboard tiles to detailed sales-order views.}
+  \end{itemize}
+
+  \item \textbf{AWS VPC Project} \hfill \href{https://github.com/swapnilshikha/AWS-Project}{GitHub Link}
+  \begin{itemize}[itemsep=2pt, topsep=1pt]
+    \resitem{Designed a Virtual Private Cloud (VPC) with public and private subnets for secure cloud architecture.}
+    \resitem{Configured Application Load Balancer and Route 53 for traffic routing and domain management.}
+    \resitem{Enabled Auto Scaling to ensure high availability and optimized resource utilization.}
+  \end{itemize}
+
+  \item \textbf{DrNextDoor (MERN Stack)} \hfill \href{https://github.com/swapnilshikha/DrNextDoor}{GitHub Link}
+  \begin{itemize}[itemsep=2pt, topsep=1pt]
+    \resitem{Built a responsive Home Page in React.js with doctor listings and appointment booking.}
+    \resitem{Created a secure Admin Panel using Express.js and MongoDB.}
+    \resitem{Tested backend REST APIs with Postman for robust communication.}
+  \end{itemize}
+
+  \item \textbf{Burberry Clone Website} \hfill \href{https://coding-comandoes.github.io/Burberry-Clone/}{Live Link}
+  \begin{itemize}[itemsep=2pt, topsep=1pt]
+    \resitem{Built a responsive fashion e-commerce website clone using React.js, CSS, and Material UI.}
+    \resitem{Implemented login page with form validation and authentication UI.}
+    \resitem{Collaborated with team members using GitHub for version control and project management.}
+  \end{itemize}
+
+  \item \textbf{Crop Economy Prediction Model (Machine Learning)} \hfill \href{https://github.com/swapnilshikha/Climate_change_on_agriculture}{GitHub Link}
+  \begin{itemize}[itemsep=2pt, topsep=1pt]
+    \resitem{Developed a machine learning model to analyze the economic impact of climate change on agriculture.}
+    \resitem{Implemented algorithms including Ridge, Lasso, Linear Regression, Decision Tree, and K-Nearest Neighbors.}
+    \resitem{Evaluated model performance and improved prediction accuracy through feature analysis.}
+  \end{itemize}
+
+\end{itemize}
+
+
+\end{document}
