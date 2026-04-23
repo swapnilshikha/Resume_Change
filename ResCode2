@@ -1,0 +1,119 @@
+\documentclass[a4paper,10pt]{article}
+
+\usepackage[margin=0.6in]{geometry}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{titlesec}
+\usepackage{tabularx}
+
+\setlist[itemize]{noitemsep, topsep=3pt}
+\titleformat{\section}{\large\bfseries}{}{0em}{}[\titlerule]
+\titlespacing{\section}{0pt}{8pt}{5pt}
+
+\begin{document}
+
+%----------HEADER----------
+\begin{center}
+    {\LARGE \textbf{Swapnilshikha Bhakat}} \\
+    Ghatshila, Jharkhand \\
+    \href{mailto:bhakatswapnilshikha@gmail.com}{bhakatswapnilshikha@gmail.com} | +91-6200428337 \\
+    \href{https://github.com/swapnilshikha}{github.com/swapnilshikha} \quad | \quad
+    \href{https://linkedin.com/in/swapnilshikha}{linkedin.com/in/swapnilshikha} \quad | \quad
+    \href{https://swapnilshikha.xyz}{swapnilshikha.xyz}
+\end{center}
+
+%----------PROFILE----------
+\section*{Profile}
+Final-year B.Tech CSE student with experience in SAP ABAP (RAP, CDS, SAPUI5) and MERN stack development. Skilled in building enterprise and full-stack applications with strong problem-solving abilities.
+
+%----------TECHNICAL SKILLS----------
+\section*{Technical Skills}
+\begin{itemize}
+    \item \textbf{SAP Technologies:} ABAP, CDS Views, RAP, SAPUI5, OData
+    \item \textbf{Languages:} C, C++, Java, Python, JavaScript, SQL
+    \item \textbf{Web:} HTML, CSS, React.js, Node.js, Express.js, MongoDB
+    \item \textbf{Tools:} AWS, GitHub, Postman, Eclipse (ADT), SAP BAS
+    \item \textbf{Core:} DBMS, Operating Systems, Data Structures
+\end{itemize}
+
+%----------EDUCATION----------
+\section*{Education}
+
+\begin{tabularx}{\textwidth}{X r}
+\textbf{Silicon University, Bhubaneswar} & 2022 -- 2026 \\
+B.Tech in Computer Science \quad | \quad CGPA: 9.02 &
+\end{tabularx}
+
+\vspace{4pt}
+
+\begin{tabularx}{\textwidth}{X r}
+\textbf{St. Joseph’s Convent High School, Mosaboni} & 2020 -- 2021 \\
+Intermediate \quad | \quad 90.67\% &
+\end{tabularx}
+
+\vspace{4pt}
+
+\begin{tabularx}{\textwidth}{X r}
+\textbf{St. Joseph’s Convent High School, Mosaboni} & 2018 -- 2019 \\
+Matriculation \quad | \quad 94\% &
+\end{tabularx}
+
+%----------INTERNSHIP----------
+\section*{Internship - GyanSys Inc., Bangalore}
+
+\begin{tabularx}{\textwidth}{X r}
+\textbf{SAP Technical Intern} & Jan 2026 -- Present
+\end{tabularx}
+
+\begin{itemize}
+    \item Gained hands-on experience in ABAP, DDIC, and report development.
+    \item Worked with OData services, CDS Views, and RAP architecture.
+    \item Explored SAPUI5 and Fiori for enterprise application development.
+\end{itemize}
+
+%----------PROJECTS----------
+\section*{Projects}
+
+\noindent\textbf{\textbullet\ Sales Order Profitability System (SAP RAP + Fiori)} \hfill \href{https://github.com/swapnilshikha}{GitHub}
+
+\vspace{2pt}
+\noindent -- Developed a SAP RAP-based analytics application using CDS Views and OData services for profitability insights. \\
+\noindent -- Designed interactive SAPUI5 dashboard with tables, tiles, and VizFrame charts.\\
+\noindent -- Enabled real-time data binding and drill-down navigation for detailed analysis.
+
+\vspace{6pt}
+
+\noindent\textbf{\textbullet\ AWS VPC Project} \hfill \href{https://github.com/swapnilshikha/AWS-Project}{GitHub}
+
+\vspace{2pt}
+\noindent -- Architected secure VPC with public and private subnets for scalable cloud infrastructure. \\
+\noindent -- Configured Load Balancer and Route 53 for efficient traffic routing. \\
+\noindent -- Implemented Auto Scaling to ensure high availability and performance optimization.
+
+\vspace{6pt}
+
+\noindent\textbf{\textbullet\ DrNextDoor (MERN Stack)} \hfill \href{https://github.com/swapnilshikha/DrNextDoor}{GitHub}
+
+\vspace{2pt}
+\noindent -- Built responsive React-based frontend with doctor listing and appointment system. \\
+\noindent -- Developed RESTful backend using Node.js, Express, and MongoDB. \\
+\noindent -- Validated APIs using Postman for reliable client-server communication.
+
+\vspace{6pt}
+
+\noindent\textbf{\textbullet\ Burberry Clone Website} \hfill \href{https://coding-comandoes.github.io/Burberry-Clone/}{Live}
+
+\vspace{2pt}
+\noindent -- Created responsive e-commerce UI using React, CSS, and Material UI. \\
+\noindent -- Implemented authentication interface with form validation.\\
+\noindent -- Collaborated using GitHub for version control and workflow management.
+
+%----------ACHIEVEMENTS----------
+\section*{Achievements}
+\begin{itemize}
+    \item Smart India Hackathon 2024 (College Level Selection)
+    \item Top Performer -- AWS Internship Program
+    \item 2nd Place -- Debugging Event (GEEK-O-FIRE 2.0)
+\end{itemize}
+
+\end{document}
